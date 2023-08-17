@@ -19,12 +19,6 @@ class Stack {
 
   /** push(val): add new value to end of the stack. Returns undefined. */
 
-  // push 10 (first,last)
-  //      10
-  // first,last
-
-  // push 100    100 -> 10
-  //            first   last
   push(val) {
     let newNode = new Node(val)
 
